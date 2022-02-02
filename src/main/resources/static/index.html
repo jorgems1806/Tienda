@@ -1,16 +1,94 @@
-<!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
+<!-- Se actualiza la pagina index para que contenga nuevas etiquetas meta y demas etiqueta para la semantica del body -->
 <html>
-    <head>
-        <title>TODO supply a title</title>
+    <head lang="es">
+        <title>Tienda en linea</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Esta pagina contiene etiquetas del tipo html5 y luego enlaces o definicion de estilos css3 ">
+        <meta name="keywords" content="html5,css3, web, fidelitas">
     </head>
     <body>
-        <h1>Pagina inicial</h1>
-        <p>Esta es la primera paginad el curso web y patrones..</p>
-    </body>
+        <header id="encabezado"><!<!-- Etiqueta para para ofrecerle al browser info de que es un encabezado -->
+            <h1>TechShop</h1>
+        </header>
+        <nav id="menu"><!<!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un menu  -->
+            <a href="ejemplo9.html">Back</a>|
+            <a href="index.html">Home</a>|
+            <a href="ejemplo2.html">Next</a><br>|
+        </nav>
+        <aside id="barralateral"><!<!-- Una etiqueta para indicar que es una barra lateral al final, puede ser a la izquierda o a la derecha y pueden ser varias -->
+            <h2>Pagina inicial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit varius rutrum parturient viverra, himenaeos auctor pharetra ultricies justo. Dis ac suspendisse venenatis hac duis pretium vitae varius rhoncus, laoreet id integer sodales egestas cursus consequat leo, semper class mattis hendrerit justo quisque luctus lectus. Nascetur aptent mi leo purus at et semper dictumst ornare nibh natoque pellentesque vivamus curabitur odio, molestie nec tellus ac taciti nulla maecenas etiam venenatis curae vestibulum primis vel ut.</p>
+            
+        </aside>
+        
+        <section id="contenido">
+            <h2>Articulos principales</h2>
+            <article>
+                <header>Portatil XRT 5000</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit varius rutrum parturient viverra, himenaeos auctor pharetra ultricies justo. Dis ac suspendisse venenatis hac duis pretium vitae varius rhoncus, laoreet id integer sodales egestas cursus consequat leo, semper class mattis hendrerit justo quisque luctus lectus. Nascetur aptent mi leo purus at et semper dictumst ornare nibh natoque pellentesque vivamus curabitur odio, molestie nec tellus ac taciti nulla maecenas etiam venenatis curae vestibulum primis vel ut.</p>
+                <footer>Agregar al carrito</footer>
+                <figure>
+                    <img src="imagenes/61tFJWGVgQL._AC_SS450_.jpg" alt="Desktop XRT"/>
+                </figure>
+            </article>
+            <article>
+                <header>Alienware ATD 9000</header>
+                <p>Esta inspirada en la pelicula<cite>Aliens el octavo pasajero</cite>Netus venenatis tempor molestie euismod interdum ultrices phasellus cursus pellentesque, facilisis faucibus placerat ad a eu ante potenti, himenaeos pharetra taciti purus iaculis scelerisque donec aenean. Interdum ridiculus ligula tortor auctor aenean nulla velit sem feugiat fames scelerisque eros torquent cum convallis, ullamcorper pharetra ut maecenas quisque metus conubia primis blandit dapibus vitae elementum sagittis ornare. Eget at interdum laoreet potenti dignissim ut vel varius hac, tristique curabitur litora congue massa convallis natoque placerat enim parturient, per rhoncus luctus leo rutrum tempus lacinia id. Aliquet vitae diam a faucibus lobortis hac imperdiet turpis eleifend, praesent parturient sociis augue scelerisque egestas nascetur laoreet, volutpat magnis dignissim sed mauris libero inceptos litora.</p> 
+                <footer>Agregar al carrito</footer>
+                <figure>
+                    <img src="imagenes/61VU3do-mL._AC_SY450_.jpg" alt="alienware"/>
+                    <figcaption>Mas vendido</figcaption>
+                </figure>
+            </article>
+            <article>
+                <header>Impresora 3D</header>
+                 <p>Arcu morbi venenatis vel accumsan pretium hac montes ultrices at, magnis rutrum turpis pellentesque potenti quam mus erat, porttitor cras condimentum pharetra metus nec justo vitae. Primis convallis odio vestibulum suscipit luctus euismod condimentum, nunc at eros porttitor ultrices tristique, imperdiet tempus blandit lacus placerat curae. Aptent eget quis laoreet natoque taciti himenaeos consequat sollicitudin aenean augue, sodales felis quam egestas ligula nulla inceptos fringilla gravida orci urna, viverra mi risus nam vitae est blandit cursus dapibus.</p>
+                 <footer>Agregar al carrito</footer>
+                 <figure>
+                     <img src="imagenes/450_1000.jpg" alt="3D print"/>
+                    <figcaption>Mas economica</figcaption>
+                </figure>
+            </article>
+            <article>
+                <header>Resumen lineas genrales</header>
+                 <table border="0">
+                     <thead>
+                         <tr id="encabezadotabla">
+                             <th>Codigo</th>
+                             <th>detalle</th>
+                         </tr>
+                     </thead>
+                     <tbody id="tablaresumen">
+                         <tr>
+                             <td>1</td>
+                             <td>Arcu morbi venenatis vel accumsan pretium hac montes ultrices at</td>
+                         </tr>
+                         <tr>
+                             <td>2</td>
+                             <td>magnis rutrum turpis pellentesque potenti quam mus erat</td>
+                         </tr>
+                          <tr>
+                             <td>3</td>
+                             <td>porttitor cras condimentum pharetra metus nec justo vitae</td>
+                         </tr>
+                          <tr>
+                             <td>4</td>
+                             <td>Primis convallis odio vestibulum suscipit luctus euismod condimentum</td>
+                         </tr>
+                          <tr>
+                             <td>5</td>
+                             <td>nunc at eros porttitor ultrices tristique, imperdiet tempus blandit lacus placerat curae</td>
+                         </tr>
+                          <tr>
+                             <td>6</td>
+                             <td>Aptent eget quis laoreet natoque taciti himenaeos consequat sollicitudin aenean augue</td>
+                         </tr>
+                     </tbody>
+                 </table>
+
+            </article>
+        </section>
+        <footer id="piedepagina">Derechos reservados &COPY;2022<address style="display: inline">Tel 8800-8800</address></footer>
+        <p> Ultima linea</p>
+        </body>
 </html>
