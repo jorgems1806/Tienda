@@ -5,16 +5,20 @@
         <meta charset="UTF-8">
         <meta name="description" content="Esta pagina contiene etiquetas del tipo html5 y luego enlaces o definicion de estilos css3 ">
         <meta name="keywords" content="html5,css3, web, fidelitas">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header id="encabezado"><!<!-- Etiqueta para para ofrecerle al browser info de que es un encabezado -->
-            <h1>TechShop</h1>
-        </header>
-        <nav id="menu"><!<!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un menu  -->
-            <a href="ejemplo9.html">Back</a>|
-            <a href="index.html">Home</a>|
-            <a href="ejemplo2.html">Next</a><br>|
+        <header class="header"><!<!-- Etiqueta para para ofrecerle al browser info de que es un encabezado -->        
+        <nav class="nav"><!<!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un menu  -->
+            <a href="index.html" class="logo nav-link " > TechShop </a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ejemplo9.html">&LeftTriangleBar;</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="audio.html">&RightTriangleBar;</a></li>             
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="videos.html">videos;</a></li>                
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="forms.html">formularios;</a></li>               
+            </ul>
         </nav>
+        </header>
         <aside id="barralateral"><!<!-- Una etiqueta para indicar que es una barra lateral al final, puede ser a la izquierda o a la derecha y pueden ser varias -->
             <h2>Pagina inicial</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit varius rutrum parturient viverra, himenaeos auctor pharetra ultricies justo. Dis ac suspendisse venenatis hac duis pretium vitae varius rhoncus, laoreet id integer sodales egestas cursus consequat leo, semper class mattis hendrerit justo quisque luctus lectus. Nascetur aptent mi leo purus at et semper dictumst ornare nibh natoque pellentesque vivamus curabitur odio, molestie nec tellus ac taciti nulla maecenas etiam venenatis curae vestibulum primis vel ut.</p>
